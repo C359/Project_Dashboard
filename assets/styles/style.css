@@ -69,10 +69,18 @@ body {
   padding: 1rem;
 }
 
-.sidebar-title {
-  font-size: 2rem;
+.sidebar-title span svg {
+  width: 3rem;
+  height: auto;
+  fill: #ffffff;
+  margin-right: 5px;;
+}
+
+.sidebar-title-text {
+  font-size: 1.75rem;
   font-weight: 600;
   color: white;
+  align-self: center;
 }
 
 .sidebar-options {
@@ -82,11 +90,16 @@ body {
   margin-top: 4vh;
 }
 
-.home-icon {
-  content: url(../../assets/icons/home.svg);
-  width: 25px;
-  height: 25px;
-  
+.sidebar-options li, .sidebar-title {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.sidebar-options span svg {
+  width: 1.5rem;
+  height: auto;
+  fill: #ffffff;
+  margin-right: 15px;;
 }
 
 /* content */
